@@ -1,3 +1,5 @@
+//console.log("Hello dude!");
+document.body.style.background = "green";
 var http = require('http');
 
 http.createServer(function(request,response){
@@ -6,3 +8,4 @@ http.createServer(function(request,response){
 	response.write('<h2>Hello, this is the Http server<h2>');
 	response.end();
 }).listen(8080, function(){ console.log("Listening on port 8080..."); });
+

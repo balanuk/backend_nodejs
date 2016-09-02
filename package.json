@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balanuk/backend_nodejs.git"
+  },
+  "author": "Andrew Balanyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balanuk/backend_nodejs/issues"
+  },
+  "homepage": "https://github.com/balanuk/backend_nodejs#readme",
+  "devDependencies": {
+    "budo": "^9.0.0",
+    "watchify": "^3.7.0"
+  }
+}
