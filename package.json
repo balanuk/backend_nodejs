@@ -1,10 +1,13 @@
 {
   "name": "Egghead_nodejs",
   "version": "1.0.1",
-  "description": "",
+  "description": "Learning pet project",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js --live"
+    "start": "node express_app.js",
+    "dev": "nodemon app.js",
+    "build": "browserify index.js -o dist/bundle.js",
+    "watch": "watchify index.js -o dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,12 @@
   },
   "homepage": "https://github.com/balanuk/backend_nodejs#readme",
   "devDependencies": {
+    "browserify": "^13.1.0",
     "budo": "^9.0.0",
+    "nodemon": "^1.10.2",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
   }
 }
